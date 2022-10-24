@@ -4,6 +4,16 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>RabbitMQFactoryHelpers</PackageId>
+    <Version>1.1</Version>
+    <Authors>martin_leshi</Authors>
+    <Language>C#</Language>
+    <RepositoryUrl>
+      https://github.com/LeshiMartin/RabbitMQFactoryHelpers
+    </RepositoryUrl>
+    <Description>
+    Nuget Package for registering a persitent Connection,  and  creating  Consumers and Senders thru  Factories
+    </Description>
   </PropertyGroup>
 
   <ItemGroup>

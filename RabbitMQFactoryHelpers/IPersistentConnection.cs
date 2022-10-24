@@ -10,7 +10,7 @@ public interface IPersistentConnection
 
   IModel CreateModel ();
 
-  void CreateConsumerChannel ( params IConsummerChannel[] channels );
+  void CreateConsumerChannel ( params IConsumerChannel[] channels );
 
   void Disconnect ();
 }

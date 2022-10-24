@@ -1,8 +1,7 @@
 ﻿using RabbitMQ.Client;
-using RabbitMQ.Client.Events;
 
 namespace RabbitMQFactoryHelpers;
-public interface IConsummerChannel : IDisposable
+public interface IConsumerChannel : IDisposable
 {
   /// <summary>
   /// Creates the consumer channel.

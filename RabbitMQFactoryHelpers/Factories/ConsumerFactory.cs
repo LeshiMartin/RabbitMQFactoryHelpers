@@ -10,19 +10,19 @@ public static class ConsumerFactory
   /// <param name="queueName">Name of the queue.</param>
   /// <param name="callBack">The call back.</param>
   /// <returns></returns>
-  public static IConsummerChannel CreateConsumer ( string queueName,
+  public static IConsumerChannel CreateConsumer ( string queueName,
     Action<BasicDeliverEventArgs> callBack )
   {
     return new BasicConsumer (queueName, callBack);
   }
 
   /// <summary>
-  /// Creates the fan out excahnge consumer.
+  /// Creates the fan out exchange consumer.
   /// </summary>
   /// <param name="queueName">Name of the queue.</param>
   /// <param name="callBack">The call back.</param>
   /// <returns></returns>
-  public static IConsummerChannel CreateFanOutExcahngeConsumer ( string queueName,
+  public static IConsumerChannel CreateFanOutExchangeConsumer ( string queueName,
     Action<BasicDeliverEventArgs> callBack )
   {
     return new BasicFanOutExchangeConsumer (queueName, callBack);
